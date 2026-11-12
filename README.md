@@ -1,6 +1,6 @@
 # Regular vs Resource-Shared 8-bit RISC-V ALU on the Shrike-Lite FPGA
 
-ELL305 project by **Samaira Khan (2024EE10201)**
+ELL305 project by **Samaira Khan (2024EE10201)** 
 
 An 8-bit arithmetic logic unit implementing the ten integer operations of the RISC-V RV32I base instruction set, built in two versions and compared on real hardware:
 
