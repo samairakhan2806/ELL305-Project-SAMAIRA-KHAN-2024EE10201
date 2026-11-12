@@ -79,6 +79,6 @@ def live_mode():
         time.sleep_ms(10)
 
 #while True:
-#    demo() # fixed test sequence (protocol analyzer check)
+#    demo() 
 #demo()
-live_mode() # slide switches (supervisor demo)
+live_mode() 
