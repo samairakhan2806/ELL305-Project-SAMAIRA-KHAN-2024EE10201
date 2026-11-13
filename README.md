@@ -50,7 +50,7 @@ Both designs share the same interface logic and pin assignment, so the whole sav
 hardware/     main.v, main_shared.v          Verilog sources (top module: alu_top)
 firmware/     alu_test.py                    MicroPython script for the RP2040
 bitstreams/   alu.bin, alu_shared.bin        generated with Go Configure
-report/       alu_report.tex, figures/       LaTeX report and screenshots
+report/       TurnItIn_Report_Project_2024EE10201_Samaira_Khan.pdf, Project_2024EE10201_Samaira_Khan.pdf, Project_2024EE10201_Samaira_Khan.tex, figures/       LaTeX report and screenshots
 ```
 
 ## Architecture
@@ -113,6 +113,7 @@ Each switch connects its RP2040 pin to a common ground when ON (internal pull-up
 | SRA 81, 03 | 0D 81 03 | F0 | 0 | 0 | 0 |
 | SLT FF, 01 | 02 FF 01 | 01 | 0 | 0 | 0 |
 | SLTU FF, 01 | 03 FF 01 | 00 | 1 | 0 | 0 |
+| SLL 0D, 02 | 01 0D 02 | 34 | 0 | 0 | 0 |
 
 Both the regular and the shared design produced identical results on the analyzer.
 
